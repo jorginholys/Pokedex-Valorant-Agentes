@@ -1,45 +1,45 @@
-.cartao-agente{
+.cartao-agente {
     display: none;
-    box-shadow: #64646f33 0px 7px 29px 0px; 
+    box-shadow: #64646f33 0px 7px 29px 0px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-.cartao-agente .cartao-topo{
+.cartao-agente .cartao-topo {
     padding: 30px 40px 0;
 }
 
-.cartao-agente .nome{
+.cartao-agente .nome {
     margin-bottom: 5px;
 }
 
-.cartao-agente .tipo{
+.cartao-agente .tipo {
     font-size: 12px;
     background-color: white;
     opacity: 0.7;
     border-radius: 10px;
     padding: 2px 10px;
-    box-shadow: #64646f33 0px 7px 29px 0px; 
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
-.cartao-agente .detalhes{
+.cartao-agente .detalhes {
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cartao-agente .cartao-imagem{
+.cartao-agente .cartao-imagem {
     width: 350px;
     height: 350px;
-    transition:ease ;
+    transition: ease;
 }
 
 .cartao-agente img {
     max-height: 100%;
 }
 
-.cartao-agente .cartao-info{
+.cartao-agente .cartao-info {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -48,80 +48,82 @@
     border-bottom-right-radius: 10px;
 }
 
-.cartao-agente .cartao-info h3{
+.cartao-agente .cartao-info h3 {
     font-size: 20px;
     margin-bottom: 15px;
     border-bottom: 1px solid #6B727A;
 }
 
-.cartao-agente .cartao-info .status, .cartao-agente .cartao-info .skills{
-     padding: 0 10px;
-     width: 180px;
- }
+.cartao-agente .cartao-info .status,
+.cartao-agente .cartao-info .skills {
+    padding: 0 10px;
+    width: 180px;
+}
 
-.cartao-agente .cartao-info .skills ul li, .cartao-agente .cartao-info .status ul li{
+.cartao-agente .cartao-info .skills ul li,
+.cartao-agente .cartao-info .status ul li {
     border-bottom: 1px solid #C3C4C5;
     padding: 0 0 5px;
     margin-bottom: 5px;
     font-size: 15px;
 }
 
-.cartao-agente.aberto{
+.cartao-agente.aberto {
     display: block;
 }
 
-.tipo-phoenix{
+.tipo-phoenix {
     background-color: #f34548;
 }
 
-.tipo-gekko{
+.tipo-gekko {
     background-color: #40bf60;
 }
 
-.tipo-sage{
+.tipo-sage {
     background-color: #76BEFE;
 }
 
-.tipo-jett{
+.tipo-jett {
     background-color: #05bbf3;
 }
 
-.tipo-viper{
+.tipo-viper {
     background-color: #1f5c27;
 }
 
-.tipo-raze{
+.tipo-raze {
     background-color: #8f3900;
 }
 
-.tipo-brimstone{
+.tipo-brimstone {
     background-color: #b4886b;
 }
 
-.cartao-jorge{
+.cartao-jorge {
     width: 350px;
     height: 450px;
     position: fixed;
-    left: 100px ;
-    top: 270px ;
+    left: 100px;
+    top: 270px;
     background-color: #61606054;
-    box-shadow: #64646f33 0px 7px 29px 0px; 
+    box-shadow: #64646f33 0px 7px 29px 0px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
-    
+
 }
 
-.cartao-jorge h4{
+.cartao-jorge h4 {
 
     font-family: "VT323", monospace;
-  font-size: 1.1rem;
-  color: #000000;
-  justify-content: center;
-  align-items: center;
-  min-height: 10vh;
-  padding: 1.8rem;
+    font-size: 1.1rem;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    padding: 1.8rem;
 }
 
 .cartao-jorge span {
     color: #02d08f;
-  }
+}
